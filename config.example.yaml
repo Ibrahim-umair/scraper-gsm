@@ -1,0 +1,11 @@
+base_url: "https://www.gsmarena.com"
+brands_path: "makers.php3"
+requests_per_minute: 20
+min_delay_seconds: 1.8
+max_delay_seconds: 4.0
+timeout_seconds: 25.0
+max_retries: 4
+db_path: "data/gsmarena.sqlite"
+user_agents:
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
